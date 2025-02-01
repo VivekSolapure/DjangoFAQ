@@ -85,19 +85,19 @@ Log in with the superuser credentials you created earlier.
    - **Question**: Enter the question (e.g., "What is Django?").
    - **Answer**: Use the WYSIWYG editor to format the answer (e.g., "Django is a web framework for Python.").
    - **Question (Hindi)**: Leave this blank for now (it will be auto-translated when you save).
-   - **Question (Bengali)**: Leave this blank for now (it will be auto-translated when you save).
+   - **Question (Marathi)**: Leave this blank for now (it will be auto-translated when you save).
    - **Answer (Hindi)**: Leave this blank for now (it will be auto-translated when you save).
-   - **Answer (Bengali)**: Leave this blank for now (it will be auto-translated when you save).
+   - **Answer (Marathi)**: Leave this blank for now (it will be auto-translated when you save).
 
 ### Save the FAQ:
 - Click the **Save** button.
-- The save method in your FAQ model will automatically translate the question and answer into Hindi and Bengali using the `googletrans` library.
+- The save method in your FAQ model will automatically translate the question and answer into Hindi and Marathi using the `googletrans` library.
 
 ## Step 3: View and Edit FAQs
 
 ### View FAQs:
 - After saving, you’ll be redirected to the list of FAQs.
-- You’ll see the question, Hindi translation, and Bengali translation in the list.
+- You’ll see the question, Hindi translation, and Marathi translation in the list.
 
 ### Edit an FAQ:
 - Click on any FAQ to edit it.
@@ -123,14 +123,14 @@ http://localhost:8000/api/faqs/?lang=hi
 
 This will return the FAQs with Hindi translations.
 
-### Fetch FAQs in Bengali:
+### Fetch FAQs in Marathi:
 Access:
 
 ```
-http://localhost:8000/api/faqs/?lang=bn
+http://localhost:8000/api/faqs/?lang=mr
 ```
 
-This will return the FAQs with Bengali translations.
+This will return the FAQs with Marathi translations.
 
 ## License
 
